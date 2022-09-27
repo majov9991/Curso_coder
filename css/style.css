@@ -227,6 +227,11 @@ body {
 
 /* para desktop */
 @media (min-width: 992px) {
+    .tit {
+        animation: heartBeat;
+        animation-duration: 5s;
+    }
+    
     .box_novedades {
         background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(125, 63, 73, 1) 83%);
         --background-color: rgb(125, 63, 73);
